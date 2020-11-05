@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: DEMO-CONFIG
+      name: springcloud-demo
+      profile: dev
+  rabbitmq:
+    host: 192.168.3.18
+    port: 5672
+    username: admin
+    password: 123.com
